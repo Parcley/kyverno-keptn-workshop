@@ -1,4 +1,3 @@
-{% raw %}
 name: Chainsaw
 
 on:
@@ -26,4 +25,3 @@ jobs:
 
       - name: Run chainsaw tests
         run: chainsaw test ./tests/04-test-the-system
-{% endraw %}
